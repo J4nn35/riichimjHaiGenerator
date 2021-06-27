@@ -27,4 +27,4 @@ when `type` is `c` you type 3 numbers followed by a color like `cl123m` and `cm4
 otherwise you just need 1 tile like `pr4s`, `ka5z`, `kml6p`.  
   
 This is what `11s pl1z ka2z kmr3z kkm4z` outputs.  
-![example]("./11s pl1z ka2z kmr3z kkm4z.png")
+![example](example.png)
