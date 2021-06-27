@@ -2,16 +2,15 @@ from PIL import Image
 
 images = []
 
-# hand = input("Please input hand: ")
-hand = "0m cl345s pm5p ka1z kkm9p kmr3s"
+hand = input("Please input hand: ")
 hand_length = 0
 
-folder = "hai" # Folder which contains pictures of tiles
-filenames = [] # What files should be opened
+folder = "hai"
+filenames = []
 kakan_idx = []
 seperates = []
 
-tiles = []     # An intermediate variable for the loop below
+tiles = []
 for c in hand.split()[0]:
     if c.isdigit():
         tiles.append(c)
